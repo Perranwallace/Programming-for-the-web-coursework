@@ -1,0 +1,27 @@
+axis path, .axis line {
+ fill: none;
+ stroke: grey;
+ shape-rendering: crispEdges;
+ }
+.axis text {
+ font-size: 13px;
+ }
+.bar {
+8
+ fill: steelblue;
+ fill-opacity: .9;
+ }
+.bar:hover {
+ fill: #008B8B;
+ }
+svg text.label {
+ fill:white;
+ font: 20px;
+ font-weight: 400;
+ text-anchor: middle;
+}
+#chartID {
+ min-width: 531px;
+ padding: 10px ;
+ display: block ;
+}
